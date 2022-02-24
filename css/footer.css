@@ -1,0 +1,111 @@
+.footer-border {
+  border-top: 1px solid rgb(182, 182, 182);
+}
+
+.logo-desc-font {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 13px;
+  line-height: 2.46;
+  color: #000000;
+  margin: unset;
+}
+.mb-5{
+  margin-bottom: unset !important;
+}
+.policy-terms {
+  color: black;
+  text-decoration: underline;
+  font-family: Roboto, sans-serif;
+  font-stretch: condensed;
+}
+.link-oth{
+  text-decoration: none;
+  color: #000;
+}
+.ft-st {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 2.15;
+  color: #000000;
+}
+
+.social-links-foo {
+  color: black;
+  text-decoration: underline;
+  font-family: 'Quicksand', sans-serif;
+  font-stretch: condensed;
+  margin-left: 0;
+  margin-right: 10px;
+  padding-left: 0;
+  padding-right: 5px;
+}
+.social-links-foo-icons{
+  
+  font-family: 'Quicksand', sans-serif;
+  font-stretch: condensed;
+  margin-left: 0;
+  margin-right: 10px;
+  padding-left: 0;
+  padding-right: 5px;
+}
+.icons-col{
+  color: #ed1c24;
+}
+.icons-col:hover{
+  color: #ed1c24;
+}
+.font-b{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+
+  line-height: 2.33;
+
+  color: #000000;
+}
+
+.quick-foo {
+  color: blue !important;
+}
+.quick-foo{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.15;
+  letter-spacing: normal;
+  text-align: left;
+  color: #191ea8;
+}
+
+.pvc-foot {
+  padding-top: 103px;
+}
+
+.f-links {
+  color: black;
+  /* text-decoration: underline; */
+  font-family: 'Quicksand', sans-serif;
+  font-stretch: condensed;
+  margin-bottom: 5px;
+}
+
+.foo-logo {
+  height: 2rem;
+  font-family: CenturyGothic, sans-serif;
+  margin-right: 5%;
+}
+
+.foo-3-mid {
+  text-align: center;
+  place-items: center;
+  justify-content: center;
+}
+
+.foo-3-righ {
+  text-align: right;
+  place-items: center;
+  justify-content: center;
+}
