@@ -6931,8 +6931,8 @@ ul li.cuz-bul-list::before {
 
 .room-pic {
     position: relative;
-    height: clamp(90px, 11vw, 140px);
-    width: clamp(120px, 14vw, 180px);
+    height: clamp(90px, 9vw, 110px);
+    width: clamp(120px, 12vw, 160px);
     margin: 10px 0;
     object-fit: cover;
     border: 2px solid #a1a1a1;
