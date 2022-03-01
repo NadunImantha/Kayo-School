@@ -6916,7 +6916,7 @@ ul li.cuz-bul-list::before {
     top: 50%;
     transform: translateY(-50%);
     left: 10px;
-    border: 2px solid #a1a1a1;
+    border: 1px solid #a1a1a1;
 }
 
 .class-room-image-container {
@@ -6935,7 +6935,7 @@ ul li.cuz-bul-list::before {
     width: clamp(140px, 15vw, 200px);
     margin: 10px 0;
     object-fit: cover;
-    border: 2px solid #a1a1a1;
+    border: 1px solid #a1a1a1;
 }
 
 .overlay {
