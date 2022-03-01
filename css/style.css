@@ -5795,6 +5795,7 @@ ul li.cuz-bul-list::before {
 .testi-slide-cont {
     padding-top: 30px;
     padding-bottom: 30px;
+    overflow: hidden;
 }
 
 .swiper-testi-home.swiper-container {
@@ -5834,7 +5835,7 @@ ul li.cuz-bul-list::before {
     width: 46px;
 }
 
-.swiper-testi-home .swiper-button-next:after {
+.swiper-testi-home .swiper-button-next:after, .testi-slide-cont .swiper-button-next:after {
     content: "";
     background-image: url(../images/Simple\ arrow.svg);
     background-repeat: no-repeat;
@@ -5844,7 +5845,7 @@ ul li.cuz-bul-list::before {
     width: 46px;
 }
 
-.swiper-testi-home .swiper-button-prev:after {
+.swiper-testi-home .swiper-button-prev:after, .testi-slide-cont .swiper-button-prev:after  {
     content: "";
     background-image: url(../images/Swi-prev-ico.svg);
     background-repeat: no-repeat;
@@ -5940,7 +5941,8 @@ ul li.cuz-bul-list::before {
 }
 
 #SBN-HT {
-    right: 10%;
+    /* right: 10%; */
+    right: 5%;
 }
 
 #SBP-PT {
@@ -6158,7 +6160,7 @@ ul li.cuz-bul-list::before {
     #SBP-HT, #SBN-HT {
         top: unset;
         bottom: -88px;
-        right: 1%;
+        /* right: 1%; */
     }
 
     .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
@@ -6989,6 +6991,10 @@ ul li.cuz-bul-list::before {
 
 .slide-content-mobile {
     position: absolute;
+}
+
+.swiper-btns .swiper-button-next, .swiper-btns .swiper-button-prev {
+    top: 1rem !important;
 }
 
 /* Nadun Imantha - END  */

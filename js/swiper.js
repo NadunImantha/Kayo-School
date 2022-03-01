@@ -37,8 +37,10 @@ var swiper2 = new Swiper('.swiper-testi-home', {
   // spaceBetween: 30,
 
   navigation: {
-    nextEl: '#SBN-HT',
-    prevEl: '#SBP-HT',
+    // nextEl: '#SBN-HT',
+    // prevEl: '#SBP-HT',
+    nextEl: '#NB',
+    prevEl: '#PB',
   },
   pagination: {
     el: '.swiper-pagination',
