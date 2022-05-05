@@ -18,7 +18,8 @@ $message = $_POST['message'];
 ?>
 
 <?php
-$email_from = 'admissions@kayoschool.com';
+// $email_from = 'admissions@kayoschool.com';
+$email_from = 'wad.nanduni@gmail.com';
 
 $email_subject = "New Message from Kayo Website";
 
@@ -66,7 +67,8 @@ $email_body = "
 
 <?php
 
-$to = "admissions@kayoschool.com, $email";
+// $to = "admissions@kayoschool.com, $email";
+$to = "wad.nanduni@gmail.com, $email";
 
 $headers = "From: $email_from \r\n";
 
