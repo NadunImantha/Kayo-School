@@ -2,7 +2,8 @@ Thank You for the Submission
 <?php echo '<script type="text/javascript">';
 echo 'function Redirect() 
     {  
-        window.location="https://kayoschool.com/contact-us.html"; 
+        // window.location="https://kayoschool.com/contact-us.html"; 
+        window.location="https://kayo.wearedesigners.net/kayo/contact-us.html";
     } 
     // document.write("You will be redirected to a new page in 5 seconds"); 
     setTimeout(\'Redirect()\', 2000);  ';
